@@ -15,9 +15,10 @@ header {
 #my-name {
     background: #4fa6b0;
     color: white;
-    text-align: center;
+    display: inline;
     position: relative;
-    left: 12%;
+    left: 10%;
+    top: 10px;
     height: 30px;
     width: 100%;
     font-size: 130%;
