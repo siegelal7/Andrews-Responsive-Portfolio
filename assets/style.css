@@ -29,6 +29,7 @@ header {
     position:relative;
     left:2%;
     top:30px;
+    opacity: 0.9;
 }
 
 #InputMessage {
@@ -37,12 +38,28 @@ header {
 
 body {
     width:100%;
-    
-    
     padding:0px 0px 100px 0px;
-    border-bottom:2px solid #4fa6b0;
-    
 }
 
+footer {
+    position: absolute;
+    bottom:0;
+    width:100%;
+    border-top: 5px solid #4fa6b0;
+    background-color: grey;
+    padding: 10px 0;
+}
+
+footer h3 {
+    text-align: center;
+}
+
+#background {
+    position:absolute;
+    width:100vw;
+    height:100vh;
+    background-image: url('gobraves.jpg');
+    opacity: 0.5;
+}
 
 
