@@ -1,3 +1,41 @@
 .bg-light {
-    background-color: purple!important;
+    background-color: white!important;
+    float:right;
+    position:fixed;
+    top:0;
+    right:0;
 } 
+
+header {
+    height:7%;
+    width:200px;
+    white-space:nowrap;
+}
+
+#my-name {
+    background: #4fa6b0;
+    color:white;
+    text-align:center;
+    position: relative;
+    left: 12%;
+    height:auto;
+    width:100%;
+    font-size: 130%;
+}
+
+.jumbotron {
+    width:60%;
+    height: 60%;
+    position:relative;
+    left:2%;
+    top:30px;
+}
+
+#InputMessage {
+    height: 5em;
+}
+
+body {
+    width:100%;
+    margin:0;
+}
