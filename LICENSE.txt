@@ -1,5 +1,4 @@
-# HW-02-Responsive-Portfolio
-
+BSD 2-Clause License
 
 Copyright (c) 2020, Andrew Siegel
 All rights reserved.
