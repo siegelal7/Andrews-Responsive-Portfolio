@@ -7,19 +7,19 @@
 } 
 
 header {
-    height:7%;
+    height:auto;
     width:200px;
     white-space:nowrap;
 }
 
 #my-name {
     background: #4fa6b0;
-    color:white;
-    text-align:center;
+    color: white;
+    text-align: center;
     position: relative;
     left: 12%;
-    height:auto;
-    width:100%;
+    height: 30px;
+    width: 100%;
     font-size: 130%;
 }
 
