@@ -40,7 +40,7 @@ header {
     background-color:white;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 700px) {
     #jumbotron-index {
         width:60%;
         height: 420px;
@@ -48,6 +48,13 @@ header {
         background-color:white;
     }
   }
+
+#jumbo-portfolio {
+    width:50%;
+    height: 620px;
+    background-color:white;
+}
+}
 
 #InputMessage {
     height: 5em;
