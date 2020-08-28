@@ -25,13 +25,29 @@ header {
 }
 
 .jumbotron {
-    width:60%;
+    width:50%;
     height: 60%;
     position:relative;
     left:2%;
     top:30px;
     opacity: 0.9;
+    background-color:white;
 }
+
+#jumbotron-index {
+    width:60%;
+    height: 420px;
+    background-color:white;
+}
+
+@media screen and (max-width: 992px) {
+    #jumbotron-index {
+        width:60%;
+        height: 420px;
+        margin:auto;
+        background-color:white;
+    }
+  }
 
 #InputMessage {
     height: 5em;
@@ -43,7 +59,7 @@ body {
 }
 
 footer {
-    position: absolute;
+    position: fixed;
     bottom:0;
     width:100%;
     border-top: 5px solid #4fa6b0;
