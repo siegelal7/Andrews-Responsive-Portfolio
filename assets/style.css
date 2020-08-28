@@ -50,11 +50,12 @@ header {
   }
 
 #jumbo-portfolio {
-    width:50%;
+    width:40%;
     height: 620px;
     background-color:white;
+    
 }
-}
+
 
 #InputMessage {
     height: 5em;
@@ -72,6 +73,7 @@ footer {
     border-top: 5px solid #4fa6b0;
     background-color: grey;
     padding: 10px 0;
+    z-index:1;
 }
 
 footer h3 {
@@ -86,3 +88,17 @@ footer h3 {
 }
 
 
+.images img {
+    width:15em;
+    border: 1px solid white;
+    padding:5px;
+}
+
+
+@media screen and (max-width: 700px) {
+    .images img {
+        
+        border: 1px solid white;
+        padding:5px;
+    }
+  }
