@@ -24,15 +24,23 @@ header {
   font-size: 130%;
 }
 
+.about-img {
+    height:12em;
+    width:12em;
+    float:left;
+    padding:10px;
+}
+
+
 .jumbotron {
   width: 50%;
-  height: 60%;
+  height: auto;
   position: relative;
   left: 2%;
   top: 30px;
   opacity: 0.9;
   background-color: white;
-}
+}  
 
 @media screen and (max-width: 700px) {
   #jumbo-contact {
@@ -40,13 +48,15 @@ header {
     height: 420px;
     margin: auto;
     background-color: white;
+   
   }
 }
 
 #jumbotron-index {
   width: 60%;
-  height: 420px;
+  height: auto;
   background-color: white;
+  
 }
 
 @media screen and (max-width: 700px) {
