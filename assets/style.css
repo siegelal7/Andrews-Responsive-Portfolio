@@ -1,114 +1,132 @@
 .bg-light {
-    background-color: white!important;
-    float:right;
-    position:fixed;
-    top:0;
-    right:0;
-} 
+  background-color: white !important;
+  float: right;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
 
 header {
-    height:auto;
-    width:200px;
-    white-space:nowrap;
+  height: auto;
+  width: 200px;
+  white-space: nowrap;
 }
 
 #my-name {
-    background: #4fa6b0;
-    color: white;
-    display: inline;
-    position: relative;
-    left: 10%;
-    top: 10px;
-    height: 30px;
-    width: 100%;
-    font-size: 130%;
+  background: #4fa6b0;
+  color: white;
+  display: inline;
+  position: relative;
+  left: 10%;
+  top: 10px;
+  height: 30px;
+  width: 100%;
+  font-size: 130%;
 }
 
 .jumbotron {
-    width:50%;
-    height: 60%;
-    position:relative;
-    left:2%;
-    top:30px;
-    opacity: 0.9;
-    background-color:white;
+  width: 50%;
+  height: 60%;
+  position: relative;
+  left: 2%;
+  top: 30px;
+  opacity: 0.9;
+  background-color: white;
 }
 
 @media screen and (max-width: 700px) {
-    #jumbo-contact {
-        width:60%;
-        height: 420px;
-        margin:auto;
-        background-color:white;
-    }
+  #jumbo-contact {
+    width: 60%;
+    height: 420px;
+    margin: auto;
+    background-color: white;
   }
-
+}
 
 #jumbotron-index {
-    width:60%;
-    height: 420px;
-    background-color:white;
+  width: 60%;
+  height: 420px;
+  background-color: white;
 }
 
 @media screen and (max-width: 700px) {
-    #jumbotron-index {
-        width:60%;
-        height: 420px;
-        margin:auto;
-        background-color:white;
-    }
+  #jumbotron-index {
+    width: 60%;
+    height: 420px;
+    margin: auto;
+    background-color: white;
   }
-
-#jumbo-portfolio {
-    width:40%;
-    height: 620px;
-    background-color:white;
-    
 }
 
+#jumbo-portfolio {
+  width: 40%;
+  height: auto;
+  background-color: white;
+  text-align:center;
+  padding:5em inherit;
+  background-size:cover;
+}
 
 #InputMessage {
-    height: 5em;
+  height: 5em;
 }
 
 body {
-    width:100%;
-    padding:0px 0px 100px 0px;
+  width: 100%;
+  padding: 0px 0px 100px 0px;
+  height:100%;
 }
 
 footer {
-    position: fixed;
-    bottom:0;
-    width:100%;
-    border-top: 5px solid #4fa6b0;
-    background-color: grey;
-    padding: 10px 0;
-    z-index:1;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 3px solid #4fa6b0;
+  background-color: grey;
+  padding: 6px 0;
+  z-index: 1;
 }
 
 footer h3 {
-    text-align: center;
+  text-align: center;
 }
 
 #background {
-    position:absolute;
-    width:100vw;
-    height:100vh;
-    background-image: url('ignasi_pattern_s.png');
-}
-
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background-image: url("ignasi_pattern_s.png");
+  min-height:auto;
+  min-width:100%;
+}  
 
 .images img {
-    width:15em;
-    border: 1px solid white;
-    padding:5px;
+  text-align:center;
+  width: 11em;
+  border: 1px solid white;
+  padding: 5px;
+  background-size:cover;
 }
 
+#left {
+    width: 11em;
+    border: 1px solid white;
+    padding: 5px;
+    display:inline;
+}
 
 @media screen and (max-width: 700px) {
     .images img {
-        
-        border: 1px solid white;
-        padding:5px;
+      max-width: 100%;
+      height: auto;
+      border: 1px solid white;
+      padding: 5px;
+      display:block;
+    margin-left:auto;
+    margin-right:auto;
     }
   }
+
+
