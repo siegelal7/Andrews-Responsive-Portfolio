@@ -112,6 +112,7 @@ footer h3 {
   min-width:100%;
 }  
 
+
 .images img {
   text-align:center;
   width: 11em;
@@ -119,13 +120,23 @@ footer h3 {
   padding: 5px;
   background-size:cover;
 }
-
+/*
 #left {
     width: 11em;
     border: 1px solid white;
     padding: 5px;
-    display:inline;
+    position:relative;
+    right:90px;
 }
+
+@media screen and (min-width: 1433px) {
+    #left {
+        position:relative;
+        left:12px;
+    }
+}
+
+*/
 
 @media screen and (max-width: 700px) {
     .images img {
