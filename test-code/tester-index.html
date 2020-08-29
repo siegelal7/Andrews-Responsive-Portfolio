@@ -8,7 +8,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title></title>
+    <title>Andrew's Portfolio</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
@@ -17,11 +17,12 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./style-tester.css" />
   </head>
 
   <body>
     <div id="background">
+
     </div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <button
@@ -35,56 +36,37 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-
+      <header>
+        <h1 id="my-name"><span class="me">Andrew Siegel</span></h1>
+      </header>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link active" href="contact.html">
-              Contact <span class="sr-only">(current)</span></a
-            >
+          <li class="nav-item active right">
+            <a class="nav-link" href="contact.html"> Contact</a>
           </li>
 
-          <li class="nav-item">
+          <li class="nav-item right">
             <a class="nav-link" href="portfolio.html">Portfolio</a>
           </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">About</a>
+          <li class="nav-item right">
+            <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
           </li>
         </ul>
       </div>
     </nav>
 
-    <header>
-      <h1 id="my-name"><span class="me">Andrew Siegel</span></h1>
-    </header>
-
-    <section class="jumbotron" id="jumbo-contact">
-      <h1 class="display-4">Contact</h1>
-      <form>
-        <div class="form-group">
-          <label for="InputName">Name</label>
-          <input
-            type="name"
-            class="form-control"
-            id="InputName"
-            aria-describedby="emailHelp"
-          />
-        </div>
-
-        <div class="form-group">
-          <label for="InputEmail">Email</label>
-          <input type="email" class="form-control" id="InputEmail" />
-        </div>
-
-        <div class="form-group">
-          <label for="InputMessage">Message</label>
-          <textarea type="message" class="form-control" id="InputMessage"></textarea>
-        </div>
-
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
-    </section>
+   
+    
+    <div class="jumbotron jumbotron-fluid" id="jumbotron-index">
+      <div class="container">
+        <h1 class="display-4">About Me</h1>
+        <img src="../assets/pretty.jpg" alt="pretty-scene" class="about-img" />
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem fugiat ex corrupti laboriosam, cum modi nostrum deleniti dolores nobis delectus quis? Dolores cumque alias eius minima nihil ullam architecto aliquid..</p>
+        <br><br>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat exercitationem assumenda accusantium eligendi libero debitis. Rerum impedit, laborum rem saepe ratione iure excepturi perferendis, explicabo similique assumenda adipisci animi? Similique.</p>
+      </div>
+    </div>
 
     <footer>
       <h3>&copy;Copyright</h3>
