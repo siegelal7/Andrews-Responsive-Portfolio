@@ -47,13 +47,9 @@ header {
   #jumbo-contact {
     width: 60%;
     height: auto;
-    
     background-color: white;
     position:relative;
-    left:20%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    left:25%;
   }
 }
 
