@@ -4,10 +4,8 @@
   position: fixed;
   top: 0;
   right: 0;
-  z-index:10;
-  
+  z-index: 10;
 }
-
 
 header {
   height: auto;
@@ -28,51 +26,48 @@ header {
 }
 
 .about-img {
-    height:12em;
-    width:12em;
-    float:left;
-    padding:10px;
+  height: 12em;
+  width: 12em;
+  float: left;
+  padding: 10px;
 }
 
-
 .jumbotron {
-  
   height: auto;
   position: relative;
-  
+
   top: 30px;
   background-color: white;
-}  
+}
 
 #jumbo-contact {
   width: 60%;
   height: auto;
   background-color: white;
   max-width: 600px;
-  float:left;
+  float: left;
 }
 
 @media screen and (max-width: 600px) {
   #jumbo-contact {
     width: 60%;
     height: auto;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
     background-color: white;
-    padding:5px;
-    position:relative;
-    left:20%;
-    top:40px;
+    padding: 5px;
+    position: relative;
+    left: 20%;
+    top: 40px;
   }
-} 
+}
 
 #jumbotron-index {
   width: 60%;
   height: auto;
   background-color: white;
-  position:relative;
+  position: relative;
   top: 40px;
-  
 }
 
 @media screen and (max-width: 700px) {
@@ -80,34 +75,34 @@ header {
     width: 60%;
     height: auto;
     margin: auto;
-    background-color: white!important;
+    background-color: white !important;
   }
 }
 
 #jumbo-portfolio {
-  max-width:800px;
-  background-color: white!important;
-  margin-left:5px;
-  position:relative;
-  top:40px;
-} 
+  max-width: 800px;
+  background-color: white !important;
+  margin-left: 5px;
+  position: relative;
+  top: 40px;
+}
 
-#jumbo-portfolio h1{
-  text-align:left;
-  color:#4fa6b0;
+#jumbo-portfolio h1 {
+  text-align: left;
+  color: #4fa6b0;
 }
 
 @media screen and (max-width: 770px) {
   #jumbo-portfolio {
-    min-width:auto!important;
+    min-width: auto !important;
     height: auto;
-    margin-left:5px;
+    margin-left: 5px;
   }
-} 
+}
 
-#jumbo-portfolio img{
-  margin-left:auto;
-  margin-right:auto;
+#jumbo-portfolio img {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #InputMessage {
@@ -117,7 +112,7 @@ header {
 body {
   width: 100%;
   padding: 0px 0px 100px 0px;
-  height:100%;
+  height: 100%;
   background-image: url("ignasi_pattern_s.png");
 }
 
@@ -129,7 +124,6 @@ footer {
   background-color: grey;
   padding: 6px 0;
   z-index: 1;
-  
 }
 
 footer h3 {
@@ -147,6 +141,3 @@ footer h3 {
   min-height:auto;
   min-width:100%;
 }  */
-
-  
-
