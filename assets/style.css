@@ -44,27 +44,6 @@ header {
   background-color: white;
 }  
 
-/*
-@media screen and (min-width: 1000px) {
-  #jumbo-contact {
-    width: 60%;
-    height: auto;
-    background-color: white;
-    position:relative;
-    left:25%;
-  }
-}*/
-
-@media screen and (max-width: 700px) {
-  #jumbo-contact {
-    width: 60%;
-    height: auto;
-    margin-left:auto;
-    background-color: white;
-    
-  }
-} 
-
 #jumbo-contact {
   width: 60%;
   height: auto;
@@ -73,13 +52,26 @@ header {
   float:left;
 }
 
+@media screen and (max-width: 600px) {
+  #jumbo-contact {
+    width: 60%;
+    height: auto;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: white;
+    padding:5px;
+    position:relative;
+    left:20%;
+    top:40px;
+  }
+} 
 
 #jumbotron-index {
   width: 60%;
   height: auto;
   background-color: white;
   position:relative;
-  top: 80px;
+  top: 40px;
   
 }
 
@@ -96,6 +88,8 @@ header {
   max-width:800px;
   background-color: white!important;
   margin-left:5px;
+  position:relative;
+  top:40px;
 } 
 
 #jumbo-portfolio h1{
