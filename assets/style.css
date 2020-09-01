@@ -130,14 +130,17 @@ footer h3 {
   text-align: center;
   font-size: 100%;
 }
-/*
-#background {
+
+#social-media {
   position: fixed;
-  top:0;
-  left:0;
-  width: 100%;
-  height: 100%;
-  background-image: url("ignasi_pattern_s.png");
-  min-height:auto;
-  min-width:100%;
-}  */
+  top: 80%;
+  left: 20%;
+}
+
+@media screen and (max-width: 600px) {
+  #social-media {
+    position: fixed;
+    top: 65%;
+    left: 30%;
+  }
+}
