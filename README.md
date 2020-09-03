@@ -1,4 +1,4 @@
-# HW-02-Responsive-Portfolio
+# Responsive-Portfolio
 
 Welcome to my responsive portfolio! I'm honored that you'd take the time to check out my work, and I hope you find the web-apps and projects compelling. Along those lines, please send me a message via the contact page or LinkedIn with any feedback, questions, or comments you may have regarding myself or my work.
 
