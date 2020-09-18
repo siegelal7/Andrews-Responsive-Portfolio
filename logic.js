@@ -1,6 +1,18 @@
-var buttonLink = document.getElementById("linkToLinkedin");
+// var buttonLink = document.getElementById("linkToLinkedin");
+var planner = $("#planner");
 
-buttonLink.addEventListener("click", function (event) {
+var weather = $("#weather");
+var proj = $("#proj1");
+
+planner.on("click", function (event) {
   event.preventDefault();
-  window.open("https://www.linkedin.com/in/andrew-siegel-54286447/", "_blank");
+  window.open("https://siegelal7.github.io/Work-Day-Scheduler/", "_blank");
+});
+weather.on("click", function (event) {
+  event.preventDefault();
+  window.open("https://siegelal7.github.io/Weather-or-not/", "_blank");
+});
+proj.on("click", function (event) {
+  event.preventDefault();
+  window.open("https://siegelal7.github.io/Find-Your-Paradise/", "_blank");
 });
