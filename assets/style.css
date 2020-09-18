@@ -12,7 +12,9 @@ header {
   width: 200px;
   white-space: nowrap;
 }
-
+img {
+  margin: 1em;
+}
 #my-name {
   background: #4fa6b0;
   color: white;
