@@ -14,5 +14,5 @@ weather.on("click", function (event) {
 });
 proj.on("click", function (event) {
   event.preventDefault();
-  window.open("https://siegelal7.github.io/Find-Your-Paradise/", "_blank");
+  window.open("https://siegelal7.github.io/Find-Your-Adventure/", "_blank");
 });
